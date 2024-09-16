@@ -110,7 +110,7 @@ namespace _046_TolentinoBulalayao_FranceszDave_L3
         {
             txtLname.Text = "";
             txtFname.Text = "";
-            cboLoad.Items.Clear();
+            cboLoad.SelectedIndex = -1;
         }
 
         private void textFileToolStripMenuItem_Click(object sender, EventArgs e)
